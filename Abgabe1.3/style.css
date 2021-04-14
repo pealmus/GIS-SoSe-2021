@@ -1,33 +1,49 @@
 
 #header{
-    font-family: Arial, Helvetica, sans-serif;
-    background:#293133;
-    text-align: left;
-    color:antiquewhite;
-    letter-spacing: 1px;
-    font-size: 15px;
-    width: 800px;
-    padding:20px;
-    top: 0px;
-    margin-left: auto;
-    margin-right: auto;
-
+  width: 800px;
+  background:#293133;
+  font-family: Arial, Helvetica, sans-serif;
+  
+  text-align: center;
+  color: antiquewhite;
+  margin-left: auto;
+  margin-right: auto;
+  letter-spacing: 1px;
+  font: caption;
+  font-size: 30px;
+  padding: 20px;
+  text-transform: uppercase;
+  top: 0px;
+  position: fixed;
+  margin-left: 525px;
+  margin-right: 375px;
+ 
 }
+    
+    
+    
+
+
 
 .navigation{
 
-    font-family: Arial, Helvetica, sans-serif;
-    overflow: hidden;
-    background-color: #293133;
-    padding: 20px;
-    top: 50px; 
-    width: 800px; 
-    font-size: 15px;
-    margin-left: auto;
-    margin-right: auto;
-    
-    
-    
+        width: 800px;
+        background:#293133;
+        
+        font-family: Arial, Helvetica, sans-serif;
+        
+        text-align: center;
+        color: antiquewhite;
+        letter-spacing: 1px;
+        font: caption;
+        font-size: 10px;
+        text-transform: uppercase;
+        top: 130px;
+        position: fixed;
+        margin-left: 545px;
+        margin-right: 375px;
+        padding:10px;
+        margin-top: 0px;
 
     
 
@@ -41,6 +57,7 @@
     padding: 14px 16px;
     text-decoration: none;
     background-color: #293133;
+    
   }
 
 
@@ -66,8 +83,9 @@
 
         width: 800px;
         background-image:url(bg.png);
+        
         font-family: Arial, Helvetica, sans-serif;
-        padding: 6px 24px;
+        
         text-align: center;
         color: #293133;
         margin-left: auto;
@@ -77,6 +95,8 @@
         font-size: 30px;
         text-transform: uppercase;
         top: 300px;
+        margin-top: 150px;
+        padding: 20px;
         
 
     }
