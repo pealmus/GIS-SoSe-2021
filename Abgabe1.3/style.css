@@ -55,6 +55,11 @@
 
 
   }
+  .navigation nav.active{
+  
+	color:antiquewhite;
+	background-color: black;
+}
 
 
   main{
@@ -142,11 +147,7 @@ width: 500px;
 
 }
 
-.navigation li.active{
-  
-	color:antiquewhite;
-	background-color: black;
-}
+
 
 
 #button{
