@@ -1,9 +1,9 @@
 
 #header{
-  width: 800px;
+  
   background:#293133;
   font-family: Arial, Helvetica, sans-serif;
-  
+  width: 800px;
   text-align: center;
   color: antiquewhite;
   margin-left: auto;
@@ -15,10 +15,9 @@
   text-transform: uppercase;
   top: 0px;
   position: fixed;
-  margin-left: 525px;
-  margin-right: 375px;
- 
-}
+  
+  
+  }
     
     
     
@@ -27,23 +26,21 @@
 
 .navigation{
 
-        width: 800px;
+        
         background:#293133;
-        
+        width: 800px;
         font-family: Arial, Helvetica, sans-serif;
-        
-        text-align: center;
+        text-align: right !important;
         color: antiquewhite;
         letter-spacing: 1px;
         font: caption;
         font-size: 10px;
-        text-transform: uppercase;
         top: 130px;
         position: fixed;
-        margin-left: 545px;
-        margin-right: 375px;
         padding:10px;
         margin-top: 0px;
+        display: block;
+        text-transform: uppercase;
 
     
 
@@ -72,9 +69,9 @@
 
 
   }
-  .navigation nav.active{
+  .navigation a:active{
   
-	color:antiquewhite;
+	color:red !important;
 	background-color: black;
 }
 
@@ -114,7 +111,6 @@
     margin-right: auto;
     letter-spacing: 1px;
     font: caption;
-    font-size: fill;
     text-transform: uppercase;
     width: 800px;
     padding: 20px;
@@ -174,6 +170,13 @@ width: 500px;
 
     background-color: #293133;
     color: antiquewhite;
+}
+
+body{
+
+width: 800px;
+margin-left: auto;
+margin-right: auto;
 }
     
 
