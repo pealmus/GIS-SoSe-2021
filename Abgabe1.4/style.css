@@ -26,13 +26,13 @@
 
 .navigation a {
     border-bottom-color: #293133;
-    transition: all 1s ease;
     display: block;
     color: antiquewhite;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     background-color: #293133;
+    transition: all 1s ease;
 }
 
 .navigation a:hover {
