@@ -25,6 +25,8 @@
 }
 
 .navigation a {
+    border-bottom-color: #293133;
+    transition: all 1s ease;
     display: block;
     color: antiquewhite;
     text-align: center;
@@ -34,12 +36,12 @@
 }
 
 .navigation a:hover {
-    background: antiquewhite;
+    background: red;
     color: #293133;
 }
 
 .navigation a:active {
-    color: red !important;
+    color: red;
 }
 
 main {
@@ -178,6 +180,7 @@ h2 u::after {
         text-transform: uppercase;
     }
     .navigation a {
+        transition: all 1s ease;
         float: right;
         display: block;
         color: antiquewhite;
@@ -191,7 +194,7 @@ h2 u::after {
         color: #293133;
     }
     .navigation a:active {
-        color: red !important;
+        color: red;
     }
     main {
         width: 800px;
@@ -311,6 +314,7 @@ h2 u::after {
         text-transform: uppercase;
     }
     .navigation a {
+        transition: all 1s ease;
         display: block;
         color: antiquewhite;
         text-align: center;
