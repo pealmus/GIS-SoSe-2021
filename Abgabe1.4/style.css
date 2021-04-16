@@ -5,7 +5,7 @@
     margin: 0 auto;
     letter-spacing: 1px;
     font: caption;
-    padding: 20px;
+    padding: 20px 0px;
     text-transform: uppercase;
     top: 0px;
     width: 100%;
@@ -52,7 +52,6 @@ main {
     letter-spacing: 1px;
     font: caption;
     text-transform: uppercase;
-    padding: 20px;
     width: 100%;
 }
 
@@ -94,7 +93,7 @@ footer {
 }
 
 .textfeld {
-    width: 100%;
+    width: 80%;
 }
 
 #button {
@@ -172,7 +171,7 @@ h2 u::after {
         font-size: 10px;
         top: 130px;
         position: fixed;
-        padding: 10px;
+        padding: 10px 20px;
         margin-top: 0px;
         display: block;
         text-transform: uppercase;
