@@ -79,20 +79,22 @@ footer {
     height: 30px;
     width: 30px;
     margin-left: 40px;
+    transition: color 0.5s ease-in-out 0s;
 }
 
 #insta:hover {
-    background: forestgreen;
+    background-color: red;
 }
 
 #facebook {
     height: 30px;
     width: 30px;
     margin-left: 40px;
+    transition: color 0.5s ease-in-out 0s;
 }
 
 #facebook:hover {
-    background: forestgreen;
+    background: blue;
 }
 
 .textfeld {
@@ -232,17 +234,19 @@ h2 u::after {
         height: 30px;
         width: 30px;
         margin-left: 40px;
+        transition: color 0.5s ease-in-out 0s;
     }
     #insta:hover {
-        background: forestgreen;
+        background: red;
     }
     #facebook {
         height: 30px;
         width: 30px;
         margin-left: 40px;
+        transition: color 0.5s ease-in-out 0s;
     }
     #facebook:hover {
-        background: forestgreen;
+        background: blue;
     }
     .textfeld {
         width: 500px;
@@ -360,17 +364,19 @@ h2 u::after {
         height: 30px;
         width: 30px;
         margin-left: 40px;
+        transition: color 0.5s ease-in-out 0s;
     }
     #insta:hover {
-        background: forestgreen;
+        background: red;
     }
     #facebook {
         height: 30px;
         width: 30px;
         margin-left: 40px;
+        transition: color 0.5s ease-in-out 0s;
     }
     #facebook:hover {
-        background: forestgreen;
+        background: blue;
     }
     .textfeld {
         width: 80%;
