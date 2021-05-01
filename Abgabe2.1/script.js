@@ -113,13 +113,28 @@ leapyears();
 function leapyears() {
     let datum = new Date();
     let aktuell = datum.getFullYear();
-    for (let d = 1900; d <= aktuell; d++)
-        ;
-    if ((d % 4) == 0 && (d % 100) != 0) {
-        console.log(d);
+    for (let d = 1900; d <= aktuell; d++) {
+        if ((d % 4) == 0 && (d % 100) != 0) {
+            console.log(d);
+        }
+        else if ((d % 400) == 0) {
+            console.log(d);
+        }
     }
-    else if ((d % 400) == 0) {
-        console.log(d);
+}
+// Aufgabe 6:
+// a)
+let zeichen = "";
+for (let v = 0; v <= 6; v++) {
+    zeichen += "#";
+    console.log(zeichen);
+}
+// b)
+let r = 1;
+while (r < 100) {
+    if (r % 3 == 0) {
+        console.log("Fizz");
+        r++;
     }
 }
 //# sourceMappingURL=script.js.map

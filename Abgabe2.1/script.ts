@@ -178,15 +178,12 @@ console.log(random);
 let faktor: number = factorial(8);
 
 function factorial (_n: number): number {
+
 let fakto: number = 1;
 for (let o: number = 1; o < _n; o++) {
-
 fakto = fakto * o;
-
 }
-
 return fakto;
-
 }
 console.log(faktor);
 
@@ -197,22 +194,45 @@ leapyears();
 
 function leapyears(): void {
 
-let datum: Date = new Date();
-let aktuell: number = datum.getFullYear();
+    let datum: Date = new Date();
+    let aktuell: number = datum.getFullYear();
 
 
-for (let d: number = 1900; d <= aktuell; d++);
-if ((d % 4) == 0 && (d % 100) != 0) {
+    for (let d: number = 1900; d <= aktuell; d++) {
+        if ((d % 4) == 0 && (d % 100) != 0) {
 
-console.log(d);
+            console.log(d);
 
-} else if ((d % 400) == 0) {
-    console.log(d);
+        } else if ((d % 400) == 0) {
+        console.log(d);
+        }
+    }
 }
 
 
+
+
+// Aufgabe 6:
+
+// a)
+
+let zeichen: string = "";
+for (let v: number = 0; v <= 6; v++ ) {
+
+zeichen += "#";
+
+console.log(zeichen);
+
+
 }
 
+// b)
 
+let r: number = 1;
+while (r < 100) {
+    if (r % 3 == 0) {
+        console.log("Fizz");
+        r++;
+    }
 
-
+}
