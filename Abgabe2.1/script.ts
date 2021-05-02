@@ -226,13 +226,5 @@ console.log(zeichen);
 
 }
 
-// b)
 
-let r: number = 1;
-while (r < 100) {
-    if (r % 3 == 0) {
-        console.log("Fizz");
-        r++;
-    }
 
-}

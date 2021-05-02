@@ -129,12 +129,4 @@ for (let v = 0; v <= 6; v++) {
     zeichen += "#";
     console.log(zeichen);
 }
-// b)
-let r = 1;
-while (r < 100) {
-    if (r % 3 == 0) {
-        console.log("Fizz");
-        r++;
-    }
-}
 //# sourceMappingURL=script.js.map
